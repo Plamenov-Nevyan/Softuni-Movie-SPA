@@ -1,0 +1,126 @@
+
+.card {
+    min-width: 18rem;
+    max-width: 18rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.btn-group {
+    margin-right: 20px;
+}
+
+.badge {
+    margin-left: 10px;
+}
+
+.enrolled-span {
+    text-decoration: underline;
+    background-color: green;
+    color: white;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.notifications {
+    background-color: rgba(238, 74, 74, 0.699);
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 6px;
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 0 5px 10px #cccccc;
+}
+
+.section-pagination  {
+    display: block;
+    margin: auto;
+      margin-bottom: auto;
+    padding: 10px;
+    width: 19%;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: chocolate;
+  }
+
+.pager {
+text-decoration: underline;
+color: crimson;
+padding: 5px;
+  }
+
+.pager:hover {
+    color: rgb(170, 0, 255);
+}
+
+.active {
+    color: rgb(170, 0, 255);
+}
+
+#commentBtn {
+    display: block;
+    border: none;
+    margin: 14px auto auto auto;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: darkblue;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+#commentBtn:hover {
+    transition: ease-in-out;
+    transition: 0.4s;
+    padding: 12px 20px;
+    background-color: #6c8b47;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: ease-in-out;
+    transition: 0.4s;
+    padding: 12px 20px;
+}
+.comment p {
+    padding: 16px;
+}
+
+.comments li {
+    display: block;
+    width: 550px;
+    margin: 32px auto 32px auto;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 12px 12px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+}
+
+#no-comments {
+    margin: 10px auto 10px auto;
+    text-align: center;
+    font-size: 23px;
+}
+
+.pager-comment {
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pager-comment:hover {
+    font-size: 23px;
+    transition: ease-in-out;
+    transition: 0.4s;
+}
+
+#comments-page-indicator {
+    font-size: 18px;
+}
